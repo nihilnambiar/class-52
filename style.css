@@ -1,0 +1,73 @@
+
+h1{
+    color:brown;
+    margin-left: 100px;
+    padding: 0px 30px;
+    
+}
+
+.header{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    border: solid;
+    
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap:  wrap;
+}
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+body{
+    background-color: #808080;
+}
+.nameheader{
+    font-style: italic;
+}
+.item{
+    padding:50px;
+    border:solid;
+}
+.header *{
+    border: solid;
+}
+.menu{
+    margin-right:20px;
+    padding-top: 10px;
+}
+.menu a{
+    margin:20px ;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: yellow;
+}
+.item{
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+opacity: 0;
+}
+.item:hover p{
+opacity: 1;
+}
+.item:hover img{
+    opacity: 0.33;
+}
+.footer{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.menu a:hover{
+    color: blue;
+}
